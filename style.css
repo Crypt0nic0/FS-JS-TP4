@@ -59,3 +59,26 @@ li:hover {
   background: #292929;
   color: #fcfcfb;
 }
+
+#side-bar i {
+  display: none;
+  font-size: 40px;
+  color: #09fbba;
+  padding-left: 10px;
+}
+
+#side-bar.sidebarToggle {
+  left: 0;
+}
+
+#side-bar.sidebarToggle span {
+  display: none;
+}
+
+#side-bar.sidebarToggle i {
+  display: block;
+}
+
+.content2 {
+  opacity: 0.3;
+}
